@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  background-color: rgb(55, 55, 55);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.header {
+  font-size: 1.1rem;
+}
+
+.buttons {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buttons button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.buttons button:hover {
+  border-color: #646cff;
+}
+
+.buttons button:focus,
+.buttons button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
