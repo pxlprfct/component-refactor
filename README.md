@@ -1,6 +1,7 @@
-# Opvia React Clicker Exercise
+# Component refactor
 
 You’ve come up with a cool idea for an app. It’s a clicker with two buttons. One to increase the number and one to decrease the number. You’re going to make this available on the web and see what happens! You just know it’s going to blow up. It’s a big project, so you’re making a front-end only MVP first. Unfortunately your pet iguana died yesterday and you couldn’t think straight. You wrote some code that works but you aren’t proud of.
+
 Today is a new day. Refactor this react component and make your clicker look cool!
 
 ```jsx
